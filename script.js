@@ -8,11 +8,7 @@ let titulo1 = document.getElementById('titulo1')
 let titulo2 = document.getElementById('titulo2')
 let download = document.getElementById('download')
 
-video1.style.display = 'none'
-video2.style.display = 'none'
-titulo1.style.display = 'none'
-titulo2.style.display = 'none'
-download.style.display = 'none'
+
 
 
 
