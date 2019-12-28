@@ -4,10 +4,15 @@
     margin: 0;
 }
 
+body{
+
+    background-color: rgb(46, 45, 45);
+}
+
 #botaoBuscar{
 
-    height: 50px;
-    width: 100px;
+    height: 20px;
+    width: 80px;
     background-color: rgb(235, 67, 67);
     color: white;
     font-size: 20px;
@@ -20,7 +25,7 @@
 
 input {
 
-    height: 50px;
+    height: 40px;
     width: 200px;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -34,6 +39,7 @@ input {
 .video {
 
     padding-left: 50px;
+    padding-bottom: 30px;
 }
 
 h3 {
@@ -80,8 +86,8 @@ li {
     font-size: 20px;
     border-radius: 5px;
     margin-left: 30px;
-    height: 50px;
-    width: 100px;
+    height: 40px;
+    width: 80px;
     border: 2px rgb(21, 107, 187) solid;
     margin-bottom: 20px;
 }
