@@ -50,6 +50,12 @@ botaoBuscar.onclick = function () {
         ex3.innerHTML = '20 min praticar a melodia de “Mr. Pc” e improvisar sobre a base (penta Cm7)'
         ex4.innerHTML = '20 min praticar os arpejos de Cm7, Eb7M, Fm7 e G7'
 
+        video1.style.display = 'none'
+        video2.style.display = 'none'
+        titulo1.style.display = 'none'
+        titulo2.style.display = 'none'
+        download.style.display = 'none'
+
 
 
     } else if (dia.value == 'dia3') {
@@ -60,6 +66,11 @@ botaoBuscar.onclick = function () {
         ex2.innerHTML = '10 min 5 shapes da pentatônica M7 em semínima e colcheia - F'
         ex3.innerHTML = '20 min praticar a melodia de “Mr. Pc” e improvisar sobre a base (penta Cm7 + Arpejos de Cm7 e Eb7M)'
         ex4.innerHTML = '20 min praticar os arpejos de Cm7, Eb7M, Fm7 e G7'
+        video1.style.display = 'none'
+        video2.style.display = 'none'
+        titulo1.style.display = 'none'
+        titulo2.style.display = 'none'
+        download.style.display = 'none'
 
     } else if (dia.value == 'dia4') {
 
@@ -69,6 +80,11 @@ botaoBuscar.onclick = function () {
         ex2.innerHTML = '15 min 7 shapes da escala de Cm dórico (Bb maior) em semínima e colcheia'
         ex3.innerHTML = '20 min praticar a melodia de “Mr. Pc” e improvisar sobre a base (Cm dórico sobre Cm7 e penta de Cm no restante da base)'
         ex4.innerHTML = '20 min praticar os arpejos de Cm7, Eb7M, D7 e G7'
+        video1.style.display = 'none'
+        video2.style.display = 'none'
+        titulo1.style.display = 'none'
+        titulo2.style.display = 'none'
+        download.style.display = 'none'
 
     } else if (dia.value == 'dia5') {
 
@@ -78,6 +94,11 @@ botaoBuscar.onclick = function () {
         ex2.innerHTML = 'Leitura das págs (0 - 16) do livro “Acordes, arpejos e escalas” (Google Drive)'
         ex3.innerHTML = 'Ler e praticar o estudo de arpejo da pág 45 do livro'
         ex4.innerHTML = 'Gravar e enviar o estudo de arpejos'
+        video1.style.display = 'none'
+        video2.style.display = 'none'
+        titulo1.style.display = 'none'
+        titulo2.style.display = 'none'
+        download.style.display = 'none'
 
     } else if (dia.value == 'dia6') {
 
@@ -87,7 +108,11 @@ botaoBuscar.onclick = function () {
         ex2.innerHTML = 'Gravar improviso sobre uma backingtrack qualquer em Cm.'
         ex3.innerHTML = 'Gravar os formatos da penta de Cm6'
         ex4.innerHTML = 'Gravar os formatos de C dórico (7 shapes de Bb maior sobre uma backing track em C dorian)'
-
+        video1.style.display = 'none'
+        video2.style.display = 'none'
+        titulo1.style.display = 'none'
+        titulo2.style.display = 'none'
+        download.style.display = 'none'
     } else if (dia.value == 'dia7') {
 
         tituloDia.innerHTML = 'Dia 7 - André Carvalho'
@@ -96,7 +121,11 @@ botaoBuscar.onclick = function () {
         ex2.innerHTML = '10 min 5 shapes da pentatônica m7 em colcheia e semicolcheia - Gm'
         ex3.innerHTML = 'Transpôr a melodia de “Mr. PC” para Gm (uma corda abaixo, mais grave)'
         ex4.innerHTML = 'Transpôr a harmonia de “Mr. PC” para Gm (cada acorde uma quinta acima, 3 tons e meio)'
-        
+        video1.style.display = 'none'
+        video2.style.display = 'none'
+        titulo1.style.display = 'none'
+        titulo2.style.display = 'none'
+        download.style.display = 'none'
 
     } else if (dia.value == 'dia8') {
 
@@ -106,7 +135,11 @@ botaoBuscar.onclick = function () {
         ex2.innerHTML = '10 min 5 shapes da pentatônica m6 em semínima e colcheia - Gm'
         ex3.innerHTML = '20 min praticar os 7 shapes de F maior'
         ex4.innerHTML = '20 min de improvisação sobre uma backing track em Gm dórico (penta de Gm6 + G dórico - F maior)'
-
+        video1.style.display = 'none'
+        video2.style.display = 'none'
+        titulo1.style.display = 'none'
+        titulo2.style.display = 'none'
+        download.style.display = 'none'
     } else if (dia.value == 'dia9') {
 
         tituloDia.innerHTML = 'Dia 9 - André Carvalho'
@@ -115,7 +148,11 @@ botaoBuscar.onclick = function () {
         ex2.innerHTML = '10 min padrão 3 em 3 da escala de G maior'
         ex3.innerHTML = '20 min mudar o padrão estudado em G e praticar em C dórico (Bb maior)'
         ex4.innerHTML = '20 min de improviso e aplicação do padrão estudado em uma base em Cm dórico'
-
+        video1.style.display = 'none'
+        video2.style.display = 'none'
+        titulo1.style.display = 'none'
+        titulo2.style.display = 'none'
+        download.style.display = 'none'
     } else if (dia.value == 'dia10') {
 
         tituloDia.innerHTML = 'Dia 10 - André Carvalho'
@@ -124,7 +161,11 @@ botaoBuscar.onclick = function () {
         ex2.innerHTML = '10 min padrão 4 em 4 da escala de G maior'
         ex3.innerHTML = '20 min mudar o padrão estudado em G e praticar em Eb maior (Eb F G Ab Bb C D Eb)'
         ex4.innerHTML = '20 min de improviso e aplicação do padrão estudado em uma base em Fm dórico (Eb maior)'
-
+        video1.style.display = 'none'
+        video2.style.display = 'none'
+        titulo1.style.display = 'none'
+        titulo2.style.display = 'none'
+        download.style.display = 'none'
     }
 
 }
