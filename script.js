@@ -205,6 +205,23 @@ botaoBuscar.onclick = function () {
         titulo1.innerHTML = 'Backing Track Bb7'
         titulo2.style.display = 'none'
 
+    } else if (dia.value == 'dia12') {
+
+        tituloDia.innerHTML = 'Dia 12 - André Carvalho'
+
+        ex1.innerHTML = '10 min cromatismo 1423 em colcheia e semicolcheia'
+        ex2.innerHTML = '10 min padrão 4 em 4 na escala de G maior'
+        ex3.innerHTML = '20 min mudar o padrão estudado em G e praticar em Eb maior (Eb F G Ab Bb C D Eb)'
+        ex4.innerHTML = '20 min de improviso e aplicação do padrão estudado em uma base em Ab lídio (Eb maior)'
+        
+        video1.style.display = 'block'
+        video1.src = 'https://www.youtube.com/embed/F_Nzkjka838'
+        video2.style.display = 'none'
+        titulo1.style.display = 'block'
+        titulo1.innerHTML = 'Backing Track Ab'
+        titulo2.style.display = 'none'
+        pdf.src = '4em4.pdf'
+
     }
 
 }
